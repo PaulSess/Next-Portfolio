@@ -1,0 +1,122 @@
+/* Project section  */
+.projectheader{
+  transition-delay: 300ms;
+}
+.project-div{
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  box-shadow: 10px -10px 25px 0px rgb(59, 59, 47);
+  transition-delay: 700ms;
+}
+.project-div:nth-child(2){
+  transition-delay: 900ms;
+}
+.project-div:nth-child(3){
+  transition-delay: 1100ms;
+}
+#page-logo-link-Giftit {
+  /* width: 170px; */
+}
+#page-logo-link-Lonelyfans {
+  /* width: 170px; */
+}
+#page-logo-link-Deforestation {
+  width: 160px;
+}
+#page-logo-link-Headtrade {
+  width: 160px;
+}
+#page-logo-link-Tomer {
+  width: 170px;
+}
+#page-logo-link-SanRegret {
+  width: 200px;
+}
+#page-logo-link-gogreen {
+  width: 170px;
+}
+.project-description{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgb(245,245,245);
+  background: linear-gradient(0deg, rgba(245,245,245,0.6168592436974789) 0%, rgba(96,97,101,0.9417892156862745) 7%, rgba(106,107,111,0.9389880952380952) 82%, rgba(69,67,67,0.854954481792717) 100%);
+  padding-top: 13px;
+  border-radius: 0 0 5px 5px;
+}
+    /* school projects  */
+#school-projects{
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+  /* background-color: #5f5f5f; */
+}
+/* @media only screen and (max-width: 1042px) {
+  #school-projects {
+    display: block;
+  }
+} */
+#schooldrop{
+  position: relative;
+  width: fit-content;
+  margin: 100px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow:  1px 1px 7px  #fffee8;
+}
+
+#mouse-click1{
+  width: 90px;
+  position: absolute;
+  right: -45px;
+  top: -2px;
+}
+
+    /* team projects  */
+#teamdrop{
+  position: relative;
+  width: fit-content;
+  margin: 180px auto 100px 100px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow:  1px 1px 7px  #fffee8;
+
+}
+
+#mouse-click-team{
+  width: 90px;
+  position: absolute;
+  right: -45px;
+  top: -2px;
+  display: none;
+}
+#team-projects{
+  margin-bottom: 200px;
+  display: flex;
+}
+.project-logo-prev{
+  width: 200px;
+}
+
+      /* personal projects from scratch  */
+#personaldrop{
+  position: relative;
+  width: fit-content;
+  margin: 200px auto 100px 100px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow:  1px 1px 7px  #fffee8;
+}
+
+#personal-projects{
+  /* display: none; */
+  margin-bottom: 200px;
+  display: flex;
+}
+#mouse-click-personal{
+  width: 90px;
+  position: absolute;
+  right: -45px;
+  top: -2px;
+
+}

@@ -1,0 +1,252 @@
+#techstack{
+  margin: 5% 0;
+  padding: 7% 0 0 0;
+  /* background: url(./images/techstack/joshua-sortino-LqKhnDzSF-8-unsplash.jpg)no-repeat;
+  background-size: cover; */
+  /* background: rgb(116,124,173); */
+/* background: radial-gradient(circle, rgba(116,124,173,1) 0%, rgba(95,95,95,1) 86%); */
+  height: 65vh;
+  width: 100%;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.container Image{
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  object-fit: contain;
+}
+.stack:nth-child(2){
+  /* bootstrap */
+  top: 1%;
+  left: 10%;
+  object-fit: contain;
+
+}
+.stack:nth-child(3){
+  /* scss  */
+  position: absolute;
+  top: 10%;
+  left: -3%;
+  object-fit: contain;
+}
+.stack:nth-child(4){
+  /* figma  */
+  position: absolute;
+  top: 30%;
+  left: -10%;
+  object-fit: contain;
+}
+.stack:nth-child(5){
+  /* git  */
+  position: absolute;
+  top: 6%;
+  left: 44%;
+  width: 15%;
+  height: 15%;
+  object-fit: contain;
+}
+.stack:nth-child(6){
+  /* github  */
+  position: absolute;
+  top: 40%;
+  left: 6%;
+  object-fit: contain;
+}
+.stack:nth-child(7){
+  /* google lighthouse  */
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  width: 15%;
+  height: 15%;
+  object-fit: contain;
+}
+.stack:nth-child(8){
+  /* heroku */
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  object-fit: contain;
+}
+.stack:nth-child(9){
+  /* html  */
+  position: absolute;
+  top: 7%;
+  left: 75%;
+  object-fit: contain;
+}
+.stack:nth-child(10){
+  /* jquery  */
+  position: absolute;
+  top: 68%;
+  left: 75%;
+  object-fit: contain;
+}
+.stack:nth-child(11){
+  /* javascript  */
+  position: absolute;
+  top: 76%;
+  left: 60%;
+  object-fit: contain;
+}
+.stack:nth-child(12){
+  /* rails  */
+  position: absolute;
+  top: 24%;
+  left: 64%;
+  object-fit: contain;
+}
+.stack:nth-child(13){
+  /* react */
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  object-fit: contain;
+}
+.stack:nth-child(14){
+  /* ruby  */
+  position: absolute;
+  top: 76%;
+  left: -6%;
+  object-fit: contain;
+}
+.stack:nth-child(15){
+  /* webpack  */
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  object-fit: contain;
+}
+.stack:nth-child(16){
+  /* yarn */
+  position: absolute;
+  top: 20%;
+  left: 23%;
+  object-fit: contain;
+}
+.stack:nth-child(17){
+  /* postgresql  */
+  position: absolute;
+  top: 74%;
+  left: 30%;
+  object-fit: contain;
+}
+.stack:nth-child(18){
+  /* next.js  */
+  position: absolute;
+  top: 74%;
+  left: 83%;
+  object-fit: contain;
+}
+.stack:nth-child(19){
+  /* tailwind */
+  position: absolute;
+  top: 0%;
+  left: 17%;
+  width: 18%;
+  height: 15%;
+  object-fit: contain;
+}
+
+
+.container h2{
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow:  1px 1px 7px  #851f1f;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 32px;
+  line-height: 60px;
+  -webkit-animacircling: 4s linear infinite; /* Chrome, Safari 5 */
+  -moz-animation: circling 4s linear infinite; /* Firefox 5-15 */
+    -o-animation: circling 4s linear infinite; /* Opera 12+ */
+       animation: circling 4s linear infinite; /* Chrome, Firefox 16+,
+                                                 IE 10+, Safari 5 */
+}
+
+
+.hiddenleft{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+.hiddenright{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hiddenright {
+    transition: all 1s;
+  }
+  .hiddenleft{
+    transition: all 1s;
+  }
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+  .container{
+    width: 90%;
+  }
+  .container h2{
+    font-size: 20px;
+    letter-spacing: 14px;
+    line-height: 35px;
+  }
+}
+/* @media (min-width:800px){
+  .container{
+    width: 90%;
+  }
+
+  .container h2{
+    font-size: 40px;
+    /* letter-spacing: 19px; */
+    /* line-height: 35px; */
+  /* } */
+/* } */
+
+
+@-webkit-keyframes circling {
+  from { -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@-moz-keyframes circling {
+  from { -moz-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { -moz-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@-o-keyframes circling {
+  from { -o-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { -o-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@keyframes circling {
+  from { transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}

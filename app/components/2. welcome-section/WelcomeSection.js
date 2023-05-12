@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import React from 'react';
 import style from './welcome-section.css'
 
@@ -17,7 +17,9 @@ export default function WelcomeSection() {
     <>
         <section id="start-animation-section">
           <div class="hero">
-            <img src="./images/david-schultz-bg-img.jpg" alt="picture of paul dream computer setup in the dark" />
+            <div className={'heroImage'}>
+              <Image width={1000} height={1000} src="/app/components/2. welcome-section/david-schultz-bg-img.jpg" alt="picture of paul dream computer setup in the dark" />
+            </div>
             <div id="boxsh"></div>
             <h1 id="hello-h1">Hello, I'm <a id="paul" target="_blank" href="https://www.linkedin.com/in/paul-sess/">Paul</a>
             </h1>

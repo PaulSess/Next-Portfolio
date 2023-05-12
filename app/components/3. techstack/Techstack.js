@@ -39,24 +39,24 @@ export default function Techstack() {
       <section id="techstack">
         <div class="container">
           <h2 class="object" data-value="1">Tech Stack</h2>
-          <img src="./img/bootstrap-img.png"       class="object stack hiddenleft" data-value="-2" alt="tech stack image" />
-          <img src="./img/scss img.svg"            class="object stack hiddenleft"   data-value="6"  alt="tech stack image" />
-          <img src="./img/figma-img.png"           class="object stack hiddenleft"   data-value="4"  alt="tech stack image" />
-          <img src="./img/git-img.png" id="git"    class="object stack hiddenright"  data-value="-6" alt="tech stack image" />
-          <img src="./img/github-img.png"          class="object stack hiddenleft"   data-value="8"  alt="tech stack image" />
-          <img src="./img/google-lighthouse-img.svg" class="object stack hiddenleft" data-value="-4" alt="tech stack image" />
-          <img src="./img/heroku-img.png"          class="object stack hiddenright"  data-value="5"  alt="tech stack image" />
-          <img src="./img/html-img.png"            class="object stack hiddenright"  data-value="-9" alt="tech stack image" />
-          <img src="./img/jQuery-img.png"          class="object stack hiddenright"  data-value="-5" alt="tech stack image" />
-          <img src="./img/js-img.png"              class="object stack hiddenright"  data-value="-6" alt="tech stack image" />
-          <img src="./img/rails-img.png"           class="object stack hiddenright"  data-value="3"  alt="tech stack image" />
-          <img src="./img/react-img.png"           class="object stack hiddenright"  data-value="19" alt="tech stack image" />
-          <img src="./img/ruby-img.png"            class="object stack hiddenleft"   data-value="-16" alt="tech stack image" />
-          <img src="./img/webpack-img.png"         class="object stack hiddenleft"   data-value="5"  alt="tech stack image" />
-          <img src="./img/yarn-img.png"            class="object stack hiddenleft"   data-value="7"  alt="tech stack image" />
-          <img src="./img/sql-img.svg"             class="object stack hiddenleft"   data-value="17" alt="tech stack image" />
-          <img src="./img/next.js.svg"             class="object stack hiddenright"   data-value="17" alt="tech stack image" />
-          <img src="./img/tailwind.svg"            class="object stack hiddenleft"   data-value="6"  alt="tech stack image" />
+          {/* <Image src="./img/bootstrap-img.png"       class="object stack hiddenleft" data-value="-2" alt="tech stack image" /> */}
+          <Image src={"/app/components/3. techstack/img/scss img.svg"} width={150} height={150}         className={'object stack hiddenleft'}  data-value="6"  alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/figma-img.png"} width={15} height={15}          className={'object stack hiddenleft'}  data-value="4"  alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/git-img.png"} id="git" width={15} height={15}   className={'object stack hiddenright'}  data-value="-6" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/github-img.png"} width={15} height={15}         className={'object stack hiddenleft"'}  data-value="8"  alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/google-lighthouse-img.svg"} width={15} height={15} className={'object stack hiddenleft'}data-value="-4" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/heroku-img.png"} width={15} height={15}         className={'object stack hiddenright'}  data-value="5"  alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/html-img.png"}  width={15} height={15}          className={'object stack hiddenright'}  data-value="-9" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/jQuery-img.png"} width={15} height={15}         className={'object stack hiddenright'}  data-value="-5" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/js-img.png"} width={15} height={15}             className={'object stack hiddenright'}  data-value="-6" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/rails-img.png"}  width={15} height={15}         className={'object stack hiddenright'}  data-value="3"  alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/react-img.png"}  width={15} height={15}         className={'object stack hiddenright'}  data-value="19" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/ruby-img.png"}  width={15} height={15}          className={'object stack hiddenleft'}  data-value="-16" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/webpack-img.png"} width={15} height={15}        className={'object stack hiddenleft'}  data-value="5"  alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/yarn-img.png"}  width={15} height={15}          className={'object stack hiddenleft'}  data-value="7"  alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/sql-img.svg"}   width={15} height={15}          className={'object stack hiddenleft'}  data-value="17" alt="tech stack image" />
+          <Image src={"/app/components/3. techstack/img/next.js.svg"}   width={15} height={15}          className={'object stack hiddenright'}   data-value="17" alt="tech stack image" />
+          <Image src="/app/components/3. techstack/img/tailwind.svg" width={15} height={15}           className={'object stack hiddenleft'}   data-value="6"  alt="tech stack image" />
         </div>
       {/* <script src="./JavaScript files/tech-stack.js" type="text/javascript"></script> */}
       </section>

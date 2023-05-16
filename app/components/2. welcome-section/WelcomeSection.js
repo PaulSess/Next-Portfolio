@@ -15,10 +15,11 @@ export default function WelcomeSection() {
 
   return (
     <>
+        {/* <Image width={1000} height={1000} src="/david-schultz-bg-img.jpg" alt="picture of paul dream computer setup in the dark" /> */}
         <section id="start-animation-section">
           <div class="hero">
             <div className={'heroImage'}>
-              <Image width={1000} height={1000} src="/app/components/2. welcome-section/david-schultz-bg-img.jpg" alt="picture of paul dream computer setup in the dark" />
+              <Image width={1000} height={1000} src="/Images/david-schultz-bg-img.jpg" alt="picture of paul dream computer setup in the dark" />
             </div>
             <div id="boxsh"></div>
             <h1 id="hello-h1">Hello, I'm <a id="paul" target="_blank" href="https://www.linkedin.com/in/paul-sess/">Paul</a>

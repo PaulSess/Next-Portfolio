@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
+import Link from 'next/link';
 
 import Navbar from './components/1. navbar/Navbar';
 import WelcomeSection from './components/2. welcome-section/WelcomeSection';
@@ -33,10 +34,11 @@ import 'animate.css';
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Link href="/About">About Us</Link>
+      {/* <Navbar />
       <WelcomeSection />
       <Techstack />
-      <Projects />
+      <Projects /> */}
     </>
   )
 }

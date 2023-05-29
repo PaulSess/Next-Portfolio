@@ -56,7 +56,7 @@ export default function Techstack() {
           <Image src={"/Images/techstack/yarn-img.png"}  width={15} height={15}          className={'object stack hiddenleft'}  data-value="7"  alt="tech stack image" />
           <Image src={"/Images/techstack/sql-img.svg"}   width={15} height={15}          className={'object stack hiddenleft'}  data-value="17" alt="tech stack image" />
           <Image src={"/Images/techstack/next.js.svg"}   width={15} height={15}          className={'object stack hiddenright'}   data-value="17" alt="tech stack image" />
-          <Image src="/Images/techstack/tailwind.svg" width={15} height={15}           className={'object stack hiddenleft'}   data-value="6"  alt="tech stack image" />
+          <Image src="/Images/techstack/tailwind.svg" width={15} height={15}             className={'object stack hiddenleft'}   data-value="6"  alt="tech stack image" />
         </div>
       {/* <script src="./JavaScript files/tech-stack.js" type="text/javascript"></script> */}
       </section>

@@ -15,7 +15,6 @@ export default function WelcomeSection() {
 
   return (
     <>
-        {/* <Image width={1000} height={1000} src="/david-schultz-bg-img.jpg" alt="picture of paul dream computer setup in the dark" /> */}
         <section id="start-animation-section">
           <div class="hero">
             <div className={'heroImage'}>

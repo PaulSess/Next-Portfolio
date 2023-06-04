@@ -34,11 +34,10 @@ import 'animate.css';
 export default function Home() {
   return (
     <>
-      <Link href="/About">About Us</Link>
-      {/* <Navbar />
+      <Navbar />
       <WelcomeSection />
       <Techstack />
-      <Projects /> */}
+      <Projects />
     </>
   )
 }

@@ -6,7 +6,12 @@ import Link from 'next/link';
 // import styles from './navbar.css'
 
 import Modal from './Modal';
+// import { ReactSVG } from "react-svg";
+// import { ReactComponent as Logo } from "/public/Images/SocialMediaTree/github (1).svg";
+import { ReactSVG } from 'react-svg';
 
+
+import Sharebutton from './Sharebutton';
 
 export default function Carousel() {
   const [show, setShow] = useState(true)
@@ -17,6 +22,8 @@ export default function Carousel() {
       }, 5000);
   })
 
+  const url = 'https://next-portfolio-three-ecru.vercel.app/SocialMediaTree';
+  const title = 'Have a look at this junior developer!';
   return (
     <>
 
@@ -49,8 +56,9 @@ export default function Carousel() {
 
           <li className='ml-7 mt-3 w-fit'>
             <Link href="https://github.com/PaulSess" className='flex'>
-              <Image className='mr-7' src="/Images/SocialMediaTree/github (1).svg" width={30} height={30}/>
+              <Image className='mr-7 fill-slate-50' style={{ fill: 'red' }} src="/Images/SocialMediaTree/github (1).svg" width={30} height={30}/>
               <p className='h-fit my-auto'>Github</p>
+              <ReactSVG src="/Images/SocialMediaTree/github (1).svg" width={100} height={100} />
             </Link>
           </li>
 
@@ -77,6 +85,7 @@ export default function Carousel() {
         </ul>
       </div>
 
+      <Sharebutton url={url} title={title} />
           {/* <script src="../path/to/flowbite/dist/flowbite.min.js"></script> */}
 
     </>

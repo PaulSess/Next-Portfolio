@@ -1,14 +1,26 @@
+"use client";
 import Image from 'next/image'
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Link from 'next/link';
 // import styles from './navbar.css'
 
+import Modal from './Modal';
+
 
 export default function Carousel() {
+  const [show, setShow] = useState(true)
+
+  useEffect(() => {
+      const timer = setTimeout(() => {
+        setShow(false);
+      }, 5000);
+  })
 
   return (
     <>
+
+      <Modal onClose={() => setShow(false)} show={show} />
 
       <div>
         <Image width={1000} height={1000} src="/Images/SocialMediaTree/giftitinterview.png" class="" alt="Me interviewing my project partner" />
@@ -30,7 +42,7 @@ export default function Carousel() {
               <Image className='mr-7' src="/Images/SocialMediaTree/globe-solid.svg" width={30} height={30}/>
               <div>
                 <p>My Portfolio page</p>
-                <p>https://paulsess.github.io/profile/</p>
+                <p>www.paulsess.profile.io</p>
               </div>
             </Link>
           </li>

@@ -9,6 +9,8 @@ import Projects from './components/4. project section/Projects';
 
 import 'animate.css';
 
+
+
 // // <!-- tab icon  -->
 // <link rel="icon" type="image/x-icon" href="./images/code-solid.svg">
 // {/* <!-- google fonts  --> */}

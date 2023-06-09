@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from 'react';
 import Image from 'next/image';
 
@@ -24,9 +25,12 @@ const ShareButton = ({ url, title }) => {
   }, [url, title]);
 
   return (
-    <button className="share-button p-5 absolute bottom-4 right-6 bg-green-950 rounded-full">
-      <Image className='' src="/Images/SocialMediaTree/share symbole.svg" width={30} height={30} />
-    </button>
+    <>
+      <button id='share-button' className="z-1 share-button p-5 absolute bottom-4 right-6 bg-[#2b5c16] rounded-full">
+        <Image className='' src="/Images/SocialMediaTree/share symbole.svg" width={30} height={30} />
+      </button>
+      <div id='backgroundblurr' className="-z-10 w-[4rem] h-[4rem] blur-md p-5 absolute bottom-3 right-5 bg-black rounded-full"></div>
+    </>
   );
 };
 

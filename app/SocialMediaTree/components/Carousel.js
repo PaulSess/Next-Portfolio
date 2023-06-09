@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Link from 'next/link';
-// import styles from './navbar.css'
+import styles from './Carousel.css'
 
 import Modal from './Modal';
 // import { ReactSVG } from "react-svg";
@@ -11,7 +11,7 @@ import Modal from './Modal';
 import { ReactSVG } from 'react-svg';
 
 
-import Sharebutton from './Sharebutton';
+// import Sharebutton from './Sharebutton';
 
 export default function Carousel() {
   const [show, setShow] = useState(true)
@@ -22,8 +22,8 @@ export default function Carousel() {
       }, 5000);
   })
 
-  const url = 'https://next-portfolio-three-ecru.vercel.app/SocialMediaTree';
-  const title = 'Have a look at this junior developer!';
+  // const url = 'https://next-portfolio-three-ecru.vercel.app/SocialMediaTree';
+  // const title = 'Have a look at this junior developer!';
   return (
     <>
 
@@ -32,7 +32,7 @@ export default function Carousel() {
       <div>
         <Image width={1000} height={1000} src="/Images/SocialMediaTree/giftitinterview.png" class="" alt="Me interviewing my project partner" />
 
-        <div className='w-100 h-40 flex bg-slate-800'>
+        <div className='w-100 h-40 flex bg-[#455a64] shadow-md'>
           <div className='w-fit h-fit m-auto '>
             <h1 className='text-gray-200 text-2xl mb-3'>Connect with me online</h1>
             <p className='text-gray-200 text-sm'>Follow me and discover my work on my sources!
@@ -42,7 +42,7 @@ export default function Carousel() {
         </div>
 
 
-        <ul className='bg-gray-200 h-full w-100 py-2'>
+        <ul className='bg-[#e5e7eb] h-full w-100 py-2'>
 
           <li className='ml-7 mt-3 w-fit'>
             <Link href="https://paulsess.github.io/profile/" className='flex '>
@@ -52,6 +52,7 @@ export default function Carousel() {
                 <p>www.paulsess.profile.io</p>
               </div>
             </Link>
+            <hr />
           </li>
 
           <li className='ml-7 mt-3 w-fit'>
@@ -85,8 +86,8 @@ export default function Carousel() {
         </ul>
       </div>
 
-      <Sharebutton url={url} title={title} />
-          {/* <script src="../path/to/flowbite/dist/flowbite.min.js"></script> */}
+      {/* <Sharebutton url={url} title={title} />
+          <script src="../path/to/flowbite/dist/flowbite.min.js"></script> */}
 
     </>
   )

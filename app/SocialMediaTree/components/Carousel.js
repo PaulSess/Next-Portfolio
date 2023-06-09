@@ -70,14 +70,14 @@ export default function Carousel() {
           </li>
 
           <li className='ml-7 mt-3 w-fit'>
-            <Link href="https://www.canva.com/design/DAFVNMiAJP8/rW9x1t6-IoBIkyPaRpm8KQ/view?utm_content=DAFVNMiAJP8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className='flex'>
+            <Link target="_blank" href="https://www.canva.com/design/DAFVNMiAJP8/rW9x1t6-IoBIkyPaRpm8KQ/view?utm_content=DAFVNMiAJP8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" className='flex'>
               <Image className='mr-7' src="/Images/SocialMediaTree/id-badge-solid.svg" width={30} height={30}/>
               <p className='h-fit my-auto'>My Curriculum Vitae</p>
             </Link>
           </li>
 
           <li className='ml-7 my-3 w-fit'>
-            <a href="paul.sess@proton.me" className='flex'>
+            <a target="_blank" href="paul.sess@proton.me" className='flex'>
               <Image className='mr-7' src="/Images/SocialMediaTree/envelope-solid.svg" width={30} height={30}/>
               <p className='h-fit my-auto'>Email me</p>
             </a>

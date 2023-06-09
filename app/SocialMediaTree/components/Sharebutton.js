@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 const ShareButton = ({ url, title }) => {
   useEffect(() => {
@@ -23,7 +24,9 @@ const ShareButton = ({ url, title }) => {
   }, [url, title]);
 
   return (
-    <button className="share-button border">Share</button>
+    <button className="share-button p-5 absolute bottom-4 right-6 bg-green-950 rounded-full">
+      <Image className='' src="/Images/SocialMediaTree/share symbole.svg" width={30} height={30} />
+    </button>
   );
 };
 

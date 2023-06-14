@@ -27,7 +27,7 @@ const ShareButton = ({ url, title }) => {
   return (
     <>
       <button id='share-button' className="z-1 share-button p-5 absolute bottom-4 right-6 bg-[#2b5c16] rounded-full">
-        <Image priority className='saturate-0 fill-white' src="/Images/SocialMediaTree/share symbole.svg" width={30} height={30} />
+        <Image priority className='saturate-0 fill-white' src="/Images/SocialMediaTree/share-removebg-preview.png" width={30} height={30} />
         {/* <svg className="fill-white" width={30} height={30}>
           <use xlinkHref="/public/Images/SocialMediaTree/share symbole.svg" />
         </svg> */}
